@@ -2,7 +2,7 @@
 
 // connect to database
 
-$conn = mysqli_connect('localhost', 'bala', 'logesh', 'bala_pizza');
+$conn = mysqli_connect('localhost', '', '', 'bala_pizza');
 
 //check connection
 if(!$conn){
