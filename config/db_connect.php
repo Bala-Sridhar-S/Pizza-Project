@@ -3,7 +3,7 @@
 // connect to local database
 //$conn = mysqli_connect('localhost', 'bala', '', 'bala_pizza');
 
-// connect to remote database
+// connect to the remote database
 $conn = mysqli_connect('remotemysql.com', '4s6AsZ86VX', 'AqqQfne5vv', '4s6AsZ86VX');
 
 //check connection
