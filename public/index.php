@@ -4,14 +4,6 @@ include('config/db_connect.php');
 
 // MySQLi or PDO(Advanced PHP using objects)
 // we are using MySQLi here
-// connect to database
-
-    $conn = mysqli_connect('localhost', 'bala', 'logesh', 'bala_pizza');
-
-    //check connection
-    if(!$conn){
-        echo 'connection error: ' . mysqli_connect_error();
-    }
 
     // Construct a query, Make a query and Fetch the results
 
