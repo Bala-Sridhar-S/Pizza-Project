@@ -1,8 +1,10 @@
 <?php 
 
-// connect to database
+// connect to local database
+//$conn = mysqli_connect('localhost', 'bala', '', 'bala_pizza');
 
-$conn = mysqli_connect('localhost', '', '', 'bala_pizza');
+// connect to remote database
+$conn = mysqli_connect('remotemysql.com', '4s6AsZ86VX', 'AqqQfne5vv', '4s6AsZ86VX');
 
 //check connection
 if(!$conn){
