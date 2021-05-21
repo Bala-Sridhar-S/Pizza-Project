@@ -8,7 +8,7 @@ $conn = mysqli_connect('remotemysql.com', '4s6AsZ86VX', 'AqqQfne5vv', '4s6AsZ86V
 
 //check connection
 if(!$conn){
-    echo 'connection error: ' . mysqli_connect_error();
+    echo 'DB connection error: ' . mysqli_connect_error();
 }
 
 ?>
