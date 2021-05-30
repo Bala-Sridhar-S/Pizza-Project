@@ -9,3 +9,7 @@ Pizza Project using PHP
    - Flex
    - Media Queries
 3. PHP
+
+## Live Preview of the Chat App
+
+https://bala-pizza-project.herokuapp.com/
